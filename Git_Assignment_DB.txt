@@ -11,11 +11,11 @@ CREATE TABLE Customer(
 	 );
 
 CREATE TABLE Item(
-	ItemCode VARCHAR(6) NOT NULL,
+	ItemID VARCHAR(6) NOT NULL,
 	Discription VARCHAR(50) NOT NULL,
 	PackSize VARCHAR(20)NOT NULL,
 	UnitPrice DECIMAL(6,2)NOT NULL,
-	CONSTRAINT PRIMARY KEY (ItemCode)
+	CONSTRAINT PRIMARY KEY (ItemID)
 );
 desc Customer;
 desc Item;
