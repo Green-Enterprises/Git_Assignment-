@@ -1,0 +1,28 @@
+drop database Git_Assignment ;
+create database Git_Assignment ;
+use Git_Assignment ;
+
+CREATE TABLE Customer(
+	 CID varchar(5)not null,
+	 Name varchar(10) not null,
+	 Address varchar(30) not null,
+	 Contact varchar(15) not null,
+	 constraint primary key(CID)
+	 );
+
+CREATE TABLE Item(
+	ItemCode VARCHAR(6) NOT NULL,
+	Discription VARCHAR(50) NOT NULL,
+	PackSize VARCHAR(20)NOT NULL,
+	UnitPrice DECIMAL(6,2)NOT NULL,
+	CONSTRAINT PRIMARY KEY (ItemCode)
+);
+desc Customer;
+desc Item;
+ 
+
+
+
+ 
+ 
+ 
